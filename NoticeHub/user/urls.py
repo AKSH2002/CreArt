@@ -19,5 +19,7 @@ from django.urls import path, include
 from user import views
 
 urlpatterns = [
+    path('', views.home, name='home'),
     path('notice', views.all_notices, name='notice'),
+    path('aboutUs', views.aboutUs, name='aboutUs'),
 ]

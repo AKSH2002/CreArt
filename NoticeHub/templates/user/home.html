@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'user/css/home.css'%}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="{% static 'user/logo.png'%}" alt="Logo">
+        </div>
+        <div class="nav-links">
+           
+            <a href="{% url 'home' %}" class="nav-link">Home</a>
+            <a href="{% url 'notice' %}" class="nav-link">Notices</a>
+            <a href="{% url 'aboutUs' %}" class="nav-link">AboutUs</a>
+           
+        </div>
+    </nav>
+    <div><h1>hello</h1></div>
+</body>
+</html>

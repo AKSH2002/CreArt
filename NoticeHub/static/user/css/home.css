@@ -37,6 +37,37 @@
     color: #f1f1f1;
 }
 
+.headline{
+    font-size: 55px;
+    padding: 100px 0px 30px 50px;
+    color: white;
+}
+
+.dis{
+    color: white;
+    font-size: 21px;
+    line-height: 32px;
+    margin:5px 680px 30px 50px;
+}
+
+.notices-button{
+    
+    color: white;
+    background-color: blue;
+    margin: 0px 0px 30px 50px;
+    line-height: 21px;
+    font-size: 19px;
+    padding: 15px 70px;
+    
+}
+
+.mains{
+    background-repeat: no-repeat;
+    backface-visibility: 50px;
+    background-position: bottom;
+    background-size:cover;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     .navbar {

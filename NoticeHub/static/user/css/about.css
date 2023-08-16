@@ -1,5 +1,4 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
   }
   
@@ -30,6 +29,7 @@ body {
 
   .about-section {
     padding: 3px;
+    margin: 30px;
     text-align: center;
     background-color: #333;
     color: white;
@@ -46,16 +46,19 @@ body {
   }
   
   .title {
+    margin: 9px 0px 9px 0px;
     color: grey;
   }
 
 
   .email {
+    margin: 9px 0px 9px 0px;
     text-decoration: none;
     color: rgb(90, 58, 58);
   }
   
   .button {
+    margin: 9px 0px 9px 0px;
     text-decoration: none;
     border: none;
     outline: 0;
